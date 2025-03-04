@@ -30,10 +30,10 @@ const Contact = () => {
 
     try {
       await emailjs.sendForm(
-        'service_tha4zap',
-        'template_tp4xfxh',
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         form.current,
-        'PFvlmyYdcd7cW58F1'
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       );
       
       setSubmitStatus('success');
