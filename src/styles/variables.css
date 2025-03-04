@@ -1,0 +1,19 @@
+:root {
+  --primary: #606C38;    /* Used for buttons, links */
+  --secondary: #283618;  /* Used for text, borders */
+  --tertiary: #FEFAE0;   /* Used for backgrounds */
+  --accent: #DDA15E;     /* Used for header/footer */
+}
+
+/* Media query breakpoints */
+@media (max-width: 768px) {
+  /* Mobile styles will go here */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Tablet styles will go here */
+}
+
+@media (min-width: 1025px) {
+  /* Desktop styles will go here */
+}
